@@ -1,8 +1,8 @@
 # glumo
-WIP : toy text editor, with the aim of being built with as few libraries as possible in Rust. This will take a long time to make, but the time will pass anyways.
-Inspired by Sokol, embedded-display, vim and Godot.
-The objective of this text editor project is to have a very decoupled architecture, with the window handling software distinct from the text editor. That way, it could be possible to add things beyond a text editor to glumo, and that requires having a Tab object which would have the same API as a window in other libraries, granting access to drawing primitives, inputs and other things.
-It might be a good idea at some point to split glumo into multiple libaries. It might be necessary to change the name at that point, but we'll see then.
+WIP : toy text editor, with the aim of being built with as few libraries as possible in Rust. This will take a long time to make, but the time will pass anyways.  
+Inspired by Sokol, embedded-display, vim and Godot.  
+The objective of this text editor project is to have a very decoupled architecture, with the window handling software distinct from the text editor. That way, it could be possible to add things beyond a text editor to glumo, and that requires having a Tab object which would have the same API as a window in other libraries, granting access to drawing primitives, inputs and other things.  
+It might be a good idea at some point to split glumo into multiple libaries. It might be necessary to change the name at that point, but we'll see then.  
 
 ## MVP
 The first version of the editor will have the following features, in the order they are going to be added :
